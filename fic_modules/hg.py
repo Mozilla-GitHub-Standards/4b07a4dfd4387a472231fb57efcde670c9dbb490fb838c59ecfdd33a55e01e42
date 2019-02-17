@@ -192,6 +192,15 @@ def json_writer_hg(repository_name, new_commits):
         json_file = open(WORKING_DIR + "/hg_files/" + hg_json_filename, "w")
         json.dump(json_content, json_file, indent=2)
         json_file.close()
+        try:
+            del json_content["0"]
+        except KeyError:
+            pass
+        with open("changelog.json", "r") as f:
+            data = json.load(f)
+        data[repository_name] = json_content
+        with open("changelog.json", "w") as f:
+            json.dump(data, f, indent=2)
 
 
 def extract_json_from_hg(json_files, path_to_files, days_to_generate):

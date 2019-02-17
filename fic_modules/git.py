@@ -357,6 +357,15 @@ def json_writer_git(repository_name, new_commits):
         json_file = open(WORKING_DIR + "/git_files/" + git_json_filename, "w")
         json.dump(new_commits, json_file, indent=2)
         json_file.close()
+        try:
+            del new_commits["0"]
+        except KeyError:
+            pass
+        with open("changelog.json", "r") as f:
+            data = json.load(f)
+        data[repository_name] = new_commits
+        with open("changelog.json", "w") as f:
+            json.dump(data, f, indent=2)
 
 
 def last_check(repository_name):
