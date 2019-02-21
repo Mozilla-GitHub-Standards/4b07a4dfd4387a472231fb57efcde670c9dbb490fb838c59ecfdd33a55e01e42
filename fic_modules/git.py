@@ -361,9 +361,13 @@ def json_writer_git(repository_name, new_commits):
             del new_commits["0"]
         except KeyError:
             pass
-        with open("changelog.json", "r") as f:
-            data = json.load(f)
-        data[repository_name] = new_commits
+        try:
+            with open("changelog.json", "r") as f:
+                data = json.load(f)
+            data[repository_name] = new_commits
+        except json.decoder.JSONDecodeError:
+            data = {}
+            data.update({repository_name: new_commits})
         with open("changelog.json", "w") as f:
             json.dump(data, f, indent=2)
 
