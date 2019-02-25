@@ -34,6 +34,8 @@ def cli(all, git, hg, l, r):
     Firefox-Infra-Changelog: tool which build a
     changelog of commits happening on git or hg that
     could affect Firefox CI Infra"""
+    if l:
+        logger = True
     if all:
         create_files_for_git(REPOSITORIES, onerepo=False)
         create_files_for_hg(REPOSITORIES, onerepo=False)
@@ -52,8 +54,6 @@ def cli(all, git, hg, l, r):
         generate_main_md_table("hg_files", GENERATE_FOR_X_DAYS)
         generate_main_md_table("git_files", GENERATE_FOR_X_DAYS)
         click.echo("Script ran in HG Only mode")
-    if l:
-        logger = True
     if r:
         get_keys("Github")
         get_keys("Mercurial")
