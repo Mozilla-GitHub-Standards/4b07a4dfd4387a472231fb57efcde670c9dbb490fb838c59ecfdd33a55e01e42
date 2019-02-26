@@ -1,6 +1,6 @@
 {
   "0": {
-    "last_push_id": 78958
+    "last_push_id": 78974
   },
   "1": {
     "changeset_number": "35344",
@@ -34301,32 +34301,6 @@
     }
   },
   "661": {
-    "changeset_number": "78830",
-    "pusher": "kgupta@mozilla.com",
-    "date_of_push": "2019-02-23 14:18:46",
-    "changeset_commits": {
-      "2": {
-        "url": "https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=6e669b1b1835",
-        "commiter_name": "Kartikaya Gupta <kgupta@mozilla.com>",
-        "commit_message": "Bug 1500941 - Add searchfox task for Android (ARMv7/API16). r=nalexander\n\nThe bulk of this is copy/pasted from a standard android-api-16 debug\nbuild. The only changes are a few extra environment variables in the\ntaskcluster config, the subconfig file, and the mozconfig, as well as\nthe --enable-mozsearch-plugin flag in the mozconfig.\n\nDepends on D20766\n\nDifferential Revision: https://phabricator.services.mozilla.com/D20767",
-        "files_changed": [
-          "mobile/android/config/mozconfigs/android-api-16/debug-searchfox",
-          "taskcluster/ci/searchfox/kind.yml",
-          "testing/mozharness/configs/builds/releng_sub_android_configs/64_api_16_debug_searchfox.py",
-          "testing/mozharness/mozharness/mozilla/building/buildbase.py"
-        ]
-      },
-      "3": {
-        "url": "https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=10ffd49d0adf",
-        "commiter_name": "Kartikaya Gupta <kgupta@mozilla.com>",
-        "commit_message": "Bug 1500941 - Enable Android searchfox job as part of the daily cron. r=emilio\n\nDepends on D20767\n\nDifferential Revision: https://phabricator.services.mozilla.com/D20768",
-        "files_changed": [
-          "taskcluster/taskgraph/target_tasks.py"
-        ]
-      }
-    }
-  },
-  "661": {
     "changeset_number": "78839",
     "pusher": "nbeleuzu@mozilla.com",
     "date_of_push": "2019-02-24 00:49:34",
@@ -34508,27 +34482,36 @@
     }
   },
   "666": {
-    "changeset_number": "78950",
+    "changeset_number": "78964",
+    "pusher": "bcampen@mozilla.com",
+    "date_of_push": "2019-02-26 00:55:42",
+    "changeset_commits": {
+      "8": {
+        "url": "https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=634949dfc792",
+        "commiter_name": "Byron Campen [:bwc] <docfaraday@gmail.com>",
+        "commit_message": "Bug 1521879 - Part 7: Create new CI jobs for media mochitests with socket process enabled. r=ahal\n\nDifferential Revision: https://phabricator.services.mozilla.com/D17942",
+        "files_changed": [
+          "dom/media/tests/mochitest/mochitest.ini",
+          "taskcluster/ci/config.yml",
+          "taskcluster/ci/test/mochitest.yml",
+          "taskcluster/docs/attributes.rst",
+          "taskcluster/taskgraph/transforms/tests.py",
+          "testing/mochitest/runtests.py"
+        ]
+      }
+    }
+  },
+  "667": {
+    "changeset_number": "78968",
     "pusher": "tdaede@mozilla.com",
-    "date_of_push": "2019-02-25 23:11:28",
+    "date_of_push": "2019-02-26 01:16:16",
     "changeset_commits": {
       "1": {
-        "url": "https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=fae88bb4c6da",
+        "url": "https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=575da58a58c7",
         "commiter_name": "Thomas Daede <tdaede@mozilla.com>",
-        "commit_message": "Bug 1520163 - Add linux64-nasm toolchain. r=glandium\n\nDifferential Revision: https://phabricator.services.mozilla.com/D20037",
+        "commit_message": "Bug 1520163 - Add linux64-nasm to android-armv7-searchfox. r=kats\n\nDifferential Revision: https://phabricator.services.mozilla.com/D21098",
         "files_changed": [
-          "build/mozconfig.nasm",
-          "taskcluster/ci/build/android.yml",
-          "taskcluster/ci/build/linux.yml",
-          "taskcluster/ci/build/macosx.yml",
-          "taskcluster/ci/build/windows.yml",
-          "taskcluster/ci/fetch/toolchains.yml",
-          "taskcluster/ci/instrumented-build/kind.yml",
-          "taskcluster/ci/searchfox/kind.yml",
-          "taskcluster/ci/static-analysis-autotest/kind.yml",
-          "taskcluster/ci/toolchain/nasm.yml",
-          "taskcluster/ci/valgrind/kind.yml",
-          "taskcluster/scripts/misc/build-nasm.sh"
+          "taskcluster/ci/searchfox/kind.yml"
         ]
       }
     }

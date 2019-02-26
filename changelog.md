@@ -1,37 +1,17 @@
-<<<<<<< HEAD
-##  Commits in production - for one day, generated on: 2019-02-25 22:41:45 UTC.
-=======
-##  Commits in production - for one day, generated on: 2019-02-22 03:04:56 UTC.
->>>>>>> master
+##  Commits in production - for one day, generated on: 2019-02-26 00:58:27 UTC.
 |	autoland	|	[MarkDown](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/hg_files/autoland.md)	|	[Json](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/hg_files/autoland.json)	| 
 |:----------:|:-----------------------:|:--------:| 
  
 | Link | Last commit | Author | Reviewer | Deploy time | 
 |:----------:|:-----------:|:------:|:--------:|:-----------:| 
-<<<<<<< HEAD
 |[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=588497dfa9c0)|Bug 1530115 - Add nasm to searchfox builds. r=me |dluca@mozilla.com|me|2019-02-25 04:14:02|
 |[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=5727cf4eeb37)|Merge mozilla-inbound to mozilla-central. a=merge|dluca@mozilla.com|merge|2019-02-25 04:14:02|
 |[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=a238fb5cc415)|Backed out changeset e9e880f7aee4 (bug 1520163) for failing nightly builds a=backout|opoprus@mozilla.com|backout|2019-02-25 12:31:07|
 |[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=a5673a480930)|Backed out changeset 588497dfa9c0 (bug 1530115) as a dependency for Bug 1520163 a=backout|opoprus@mozilla.com|backout|2019-02-25 12:31:07|
 |[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=445315bbfbf9)|Backed out 10 changesets (bug 1521879) for causing bug 1530107. a=backout  Backed out changeset f597a73a6eac (bug 1521879) Backed out changeset 0bb76534f207 (bug 1521879) Backed out changeset abcb8be12adf (bug 1521879) Backed out changeset ed6c8d3bbfde (bug 1521879) Backed out changeset 1addf1e15b55 (bug 1521879) Backed out changeset 6b709cd9a479 (bug 1521879) Backed out changeset 07747027c59c (bug 1521879) Backed out changeset a6105ccc188c (bug 1521879) Backed out changeset 48c9c643e7bb (bug 1521879) Backed out changeset d4004105a04a (bug 1521879)|opoprus@mozilla.com|backout|2019-02-25 12:31:07|
 |[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=293617cdb29d)|Bug 1527777 - Move spidermonkey jobs from win32 to win64 r=jmaher  Differential Revision: https://phabricator.services.mozilla.com/D20619|sfink@mozilla.com|jmaher|2019-02-25 22:08:25|
-|[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=fae88bb4c6da)|Bug 1520163 - Add linux64-nasm toolchain. r=glandium  Differential Revision: https://phabricator.services.mozilla.com/D20037|tdaede@mozilla.com|glandium|2019-02-25 23:11:28|
-=======
-|[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=6939a3b5e2e4)|Bug 1529339 - replace test-provisioner with permanent bitbar provisioner id r=jmaher  Changes:  - replaced existing references to `test-provisioner/bitbar` with `bitbar/gecko-t-win10-aarch64` (proposed permanent provisioner-id)  Differential Revision: https://phabricator.services.mozilla.com/D20536|egao@mozilla.com|jmaher|2019-02-21 05:18:31|
-|[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=897cb0bac95e)|Bug 1528362: [taskgraph] Change scheduler-id to include the trust-domain; r=dustin  Differential Revision: https://phabricator.services.mozilla.com/D20048|mozilla@hocat.ca|dustin|2019-02-21 09:35:04|
-|[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=424f97dc01db)|Bug 1528362: [taskgraph] Use trust-domain prefixed caches; r=dustin  Differential Revision: https://phabricator.services.mozilla.com/D20049|mozilla@hocat.ca|dustin|2019-02-21 09:35:04|
-|[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=708d79591ac5)|Bug 1522100 - Add Raptor support for running tests locally on the android-components reference browser; r=davehunt  Differential Revision: https://phabricator.services.mozilla.com/D20414|rwood@mozilla.com|davehunt|2019-02-21 16:28:11|
-|[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=5f7a214a91d7)|Bug 1522625 - Promote Raptor tp6-7 to tier 1; r=Bebe  Differential Revision: https://phabricator.services.mozilla.com/D20348|rwood@mozilla.com|Bebe|2019-02-21 17:29:52|
-|[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=ee5fa9cfca43)|Bug 1529339: Enable signing for win64-aarch64 builds, for xpcshell tests; r=Callek  Differential Revision: https://phabricator.services.mozilla.com/D20543|mozilla@hocat.ca|Callek|2019-02-21 17:57:08|
-|[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=ddb817eed3bc)|Bug 1513000 - Updates to mozharness openh264 scripts and configs; r=callek  Differential Revision: https://phabricator.services.mozilla.com/D19817|nbeleuzu@mozilla.com|callek|2019-02-21 18:09:19|
-|[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=471db22054e7)|Bug 1513000 - Add taskcluster configuration for building openh264 plugin; r=callek  Differential Revision: https://phabricator.services.mozilla.com/D19818|nbeleuzu@mozilla.com|callek|2019-02-21 18:09:19|
-|[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=6982b26698b4)|Merge mozilla-central to autoland. a=merge CLOSED TREE|nbeleuzu@mozilla.com|merge|2019-02-21 18:09:19|
-|[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=54ac1b47b736)|Bug 1521879 - Part 7: Create new CI jobs for media mochitests with socket process enabled. r=ahal  Differential Revision: https://phabricator.services.mozilla.com/D17942|bcampen@mozilla.com|ahal|2019-02-21 19:03:41|
-|[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=679b06a8a1aa)|Bug 1526777 - [mozharness] Restrict success_codes hack in desktop_unittest.py to Windows 7 reftests, r=jmaher  Bug 1120644 will be used to look into why Windows 7 reftests are still returning 1.  Differential Revision: https://phabricator.services.mozilla.com/D20665|ahalberstadt@mozilla.com|jmaher|2019-02-21 19:09:04|
-|[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=a20e8e924046)|Backed out 9 changesets (bug 1521879) for flake failures at /transforms/tests.py. CLOSED TREE  Backed out changeset baac167868b3 (bug 1521879) Backed out changeset 54ac1b47b736 (bug 1521879) Backed out changeset 94b62c6f22e2 (bug 1521879) Backed out changeset d44f15fd4529 (bug 1521879) Backed out changeset 761fca0514fb (bug 1521879) Backed out changeset 0b85b1a7c1ce (bug 1521879) Backed out changeset 5dc76e863a02 (bug 1521879) Backed out changeset 604b9a007fe5 (bug 1521879) Backed out changeset c414d82a5325 (bug 1521879)|cbrindusan@mozilla.com||2019-02-21 19:33:34|
-|[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=8dbdd56ebab4)|Bug 1528985 - [ci] Fix typo in raptor task's try-name, r=rwood  This was causing a JavaScript error in the |mach try chooser| interface since the space resulted in invalid CSS selectors being used.  Differential Revision: https://phabricator.services.mozilla.com/D20710|ahalberstadt@mozilla.com|rwood|2019-02-22 00:01:20|
-|[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=f7e68519a296)|Bug 1529655 - Have Raptor pixel 2 arm7 jobs run on mozilla-central and try only; r=jmaher,davehunt  Differential Revision: https://phabricator.services.mozilla.com/D20708|dhunt@mozilla.com|jmaher,davehunt|2019-02-22 00:02:40|
->>>>>>> master
+|[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=634949dfc792)|Bug 1521879 - Part 7: Create new CI jobs for media mochitests with socket process enabled. r=ahal  Differential Revision: https://phabricator.services.mozilla.com/D17942|bcampen@mozilla.com|ahal|2019-02-26 00:55:42|
+|[Link](https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=575da58a58c7)|Bug 1520163 - Add linux64-nasm to android-armv7-searchfox. r=kats  Differential Revision: https://phabricator.services.mozilla.com/D21098|tdaede@mozilla.com|kats|2019-02-26 01:16:16|
 
 |	ci-admin	|	[MarkDown](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/hg_files/ci-admin.md)	|	[Json](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/hg_files/ci-admin.json)	| 
 |:----------:|:-----------------------:|:--------:| 
@@ -45,32 +25,23 @@
  
 | Link | Last commit | Author | Reviewer | Deploy time | 
 |:----------:|:-----------:|:------:|:--------:|:-----------:| 
-<<<<<<< HEAD
 |[Link](https://hg.mozilla.org/ci/ci-configuration/pushloghtml?changeset=a4184058abae)|Bug 1520867: Remove scopes for temporary bitbar worker; r=dustin  Differential Revision: https://phabricator.services.mozilla.com/D20788|mozilla@hocat.ca|dustin|2019-02-25 18:46:56|
 |[Link](https://hg.mozilla.org/ci/ci-configuration/pushloghtml?changeset=18d5ea174bab)|Bug 1530376 - Update ci grants for code review task, r=dustin  Differential Revision: https://phabricator.services.mozilla.com/D21022|dmitchell@mozilla.com|dustin|2019-02-25 19:12:16|
 |[Link](https://hg.mozilla.org/ci/ci-configuration/pushloghtml?changeset=ffbd916086f9)|Bug 1530170 - Grant 'queue:rerun-task:scheduler-id' as part of trust-domain-scopes; r=tomprince  Enables rerunning tasks from the taskcluster CLI client for Thunderbird developers.  Differential Revision: https://phabricator.services.mozilla.com/D21038|mozilla@hocat.ca|tomprince|2019-02-25 22:41:46|
-=======
-| |No push in the last day.. [see the history of MD commits](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/hg_files/ci-configuration.md)|FIC - BOT|Self Generated| - |
->>>>>>> master
 
 |	mozilla-beta	|	[MarkDown](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/hg_files/mozilla-beta.md)	|	[Json](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/hg_files/mozilla-beta.json)	| 
 |:----------:|:-----------------------:|:--------:| 
  
 | Link | Last commit | Author | Reviewer | Deploy time | 
 |:----------:|:-----------:|:------:|:--------:|:-----------:| 
-<<<<<<< HEAD
 |[Link](https://hg.mozilla.org/releases/mozilla-beta/pushloghtml?changeset=17c78b631b58)|Bug 1529921: Use secrets from taskcluster for windows builds; r=aki  Differential Revision: https://phabricator.services.mozilla.com/D20849|mozilla@hocat.ca|aki|2019-02-25 07:17:05|
 |[Link](https://hg.mozilla.org/releases/mozilla-beta/pushloghtml?changeset=f77b96743f3c)|Bug 1529921: [mozharness] Calculate scm_level for secrets directly from MOZ_SCM_LEVEL; r=aki a=tomprince  Differential Revision: https://phabricator.services.mozilla.com/D20893|mozilla@hocat.ca|aki|2019-02-25 07:17:05|
-=======
-|[Link](https://hg.mozilla.org/releases/mozilla-beta/pushloghtml?changeset=866b41f7bb69)|Bug 1472589 - Fix parent process crash reporting in the Snap package environment. r=ted,jlorenzo a=lizzard  1. The unsetting of LD_LIBRARY_PATH is removed, because it's no longer necessary and interferes with environments where it's necessary to find "system" libraries like GTK; see bug 1472589 comment #1 through #4.  2. The Snap package manifest adds a dependency on the libcurl package, so that the crash reporter can send the report.  This uses the GnuTLS variant because we're already pulling in GnuTLS as a dependency of some other packages (FFmpeg and CUPS, but also the non-GnuTLS cURL packages depend on it anyway via OpenLDAP).  Differential Revision: https://phabricator.services.mozilla.com/D18625|aiakab@mozilla.com|ted,jlorenzo|2019-02-21 04:38:27|
->>>>>>> master
 
 |	mozilla-central	|	[MarkDown](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/hg_files/mozilla-central.md)	|	[Json](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/hg_files/mozilla-central.json)	| 
 |:----------:|:-----------------------:|:--------:| 
  
 | Link | Last commit | Author | Reviewer | Deploy time | 
 |:----------:|:-----------:|:------:|:--------:|:-----------:| 
-<<<<<<< HEAD
 |[Link](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=dac57a397973)|Bug 1529921: Use secrets from taskcluster for windows builds; r=aki  Differential Revision: https://phabricator.services.mozilla.com/D20849|dluca@mozilla.com|aki|2019-02-25 03:46:40|
 |[Link](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=94e616a3a7a0)|Bug 1529921: [mozharness] Calculate scm_level for secrets directly from MOZ_SCM_LEVEL; r=aki  Differential Revision: https://phabricator.services.mozilla.com/D20893|dluca@mozilla.com|aki|2019-02-25 03:46:40|
 |[Link](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=588497dfa9c0)|Bug 1530115 - Add nasm to searchfox builds. r=me |dluca@mozilla.com|me|2019-02-25 03:48:16|
@@ -78,43 +49,18 @@
 |[Link](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=a238fb5cc415)|Backed out changeset e9e880f7aee4 (bug 1520163) for failing nightly builds a=backout|aciure@mozilla.com|backout|2019-02-25 11:41:27|
 |[Link](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=a5673a480930)|Backed out changeset 588497dfa9c0 (bug 1530115) as a dependency for Bug 1520163 a=backout|aciure@mozilla.com|backout|2019-02-25 11:55:32|
 |[Link](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=445315bbfbf9)|Backed out 10 changesets (bug 1521879) for causing bug 1530107. a=backout  Backed out changeset f597a73a6eac (bug 1521879) Backed out changeset 0bb76534f207 (bug 1521879) Backed out changeset abcb8be12adf (bug 1521879) Backed out changeset ed6c8d3bbfde (bug 1521879) Backed out changeset 1addf1e15b55 (bug 1521879) Backed out changeset 6b709cd9a479 (bug 1521879) Backed out changeset 07747027c59c (bug 1521879) Backed out changeset a6105ccc188c (bug 1521879) Backed out changeset 48c9c643e7bb (bug 1521879) Backed out changeset d4004105a04a (bug 1521879)|rgurzau@mozilla.com|backout|2019-02-25 12:13:02|
-=======
-|[Link](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=872914c3d0b9)|Bug 1527066: Add new ConsoleLogger type, and make it the default r=aki  Differential Revision: https://phabricator.services.mozilla.com/D19408|csabou@mozilla.com|aki|2019-02-21 05:41:50|
-|[Link](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=fe259096e7ed)|Bug 1529033 - Update gn build to pick up MSVC /WX fix r=glandium  Differential Revision: https://phabricator.services.mozilla.com/D20375|csabou@mozilla.com|glandium|2019-02-21 05:41:50|
-|[Link](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=5f8330e12825)|Backed out changeset fe259096e7ed (bug 1529033) for failing toolchains on a CLOSED TREE|csabou@mozilla.com||2019-02-21 05:41:50|
-|[Link](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=eca15205ecb1)|Bug 1528427: Optimize tasks scheduled with try syntax r=tomprince  Differential Revision: https://phabricator.services.mozilla.com/D20403|csabou@mozilla.com|tomprince|2019-02-21 05:41:50|
-|[Link](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=f4bd1f216081)|Bug 1522111 - Followup, improve SETA algorithm a bit more by treating opt low value as low value for pgo as well. Unless there is a high value task to override. r=jmaher  Differential Revision: https://phabricator.services.mozilla.com/D20390|csabou@mozilla.com|jmaher|2019-02-21 05:41:50|
-|[Link](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=6939a3b5e2e4)|Bug 1529339 - replace test-provisioner with permanent bitbar provisioner id r=jmaher  Changes:  - replaced existing references to `test-provisioner/bitbar` with `bitbar/gecko-t-win10-aarch64` (proposed permanent provisioner-id)  Differential Revision: https://phabricator.services.mozilla.com/D20536|opoprus@mozilla.com|jmaher|2019-02-21 11:28:57|
-|[Link](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=ddb817eed3bc)|Bug 1513000 - Updates to mozharness openh264 scripts and configs; r=callek  Differential Revision: https://phabricator.services.mozilla.com/D19817|nbeleuzu@mozilla.com|callek|2019-02-21 17:56:54|
-|[Link](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=471db22054e7)|Bug 1513000 - Add taskcluster configuration for building openh264 plugin; r=callek  Differential Revision: https://phabricator.services.mozilla.com/D19818|nbeleuzu@mozilla.com|callek|2019-02-21 17:56:54|
-|[Link](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=897cb0bac95e)|Bug 1528362: [taskgraph] Change scheduler-id to include the trust-domain; r=dustin  Differential Revision: https://phabricator.services.mozilla.com/D20048|nbeleuzu@mozilla.com|dustin|2019-02-21 17:59:59|
-|[Link](https://hg.mozilla.org/mozilla-central/pushloghtml?changeset=424f97dc01db)|Bug 1528362: [taskgraph] Use trust-domain prefixed caches; r=dustin  Differential Revision: https://phabricator.services.mozilla.com/D20049|nbeleuzu@mozilla.com|dustin|2019-02-21 17:59:59|
->>>>>>> master
 
 |	mozilla-inbound	|	[MarkDown](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/hg_files/mozilla-inbound.md)	|	[Json](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/hg_files/mozilla-inbound.json)	| 
 |:----------:|:-----------------------:|:--------:| 
  
 | Link | Last commit | Author | Reviewer | Deploy time | 
 |:----------:|:-----------:|:------:|:--------:|:-----------:| 
-<<<<<<< HEAD
 |[Link](https://hg.mozilla.org/integration/mozilla-inbound/pushloghtml?changeset=dac57a397973)|Bug 1529921: Use secrets from taskcluster for windows builds; r=aki  Differential Revision: https://phabricator.services.mozilla.com/D20849|dluca@mozilla.com|aki|2019-02-25 04:17:09|
 |[Link](https://hg.mozilla.org/integration/mozilla-inbound/pushloghtml?changeset=94e616a3a7a0)|Bug 1529921: [mozharness] Calculate scm_level for secrets directly from MOZ_SCM_LEVEL; r=aki  Differential Revision: https://phabricator.services.mozilla.com/D20893|dluca@mozilla.com|aki|2019-02-25 04:17:09|
 |[Link](https://hg.mozilla.org/integration/mozilla-inbound/pushloghtml?changeset=5727cf4eeb37)|Merge mozilla-inbound to mozilla-central. a=merge|dluca@mozilla.com|merge|2019-02-25 04:17:09|
 |[Link](https://hg.mozilla.org/integration/mozilla-inbound/pushloghtml?changeset=a238fb5cc415)|Backed out changeset e9e880f7aee4 (bug 1520163) for failing nightly builds a=backout|opoprus@mozilla.com|backout|2019-02-25 12:33:46|
 |[Link](https://hg.mozilla.org/integration/mozilla-inbound/pushloghtml?changeset=a5673a480930)|Backed out changeset 588497dfa9c0 (bug 1530115) as a dependency for Bug 1520163 a=backout|opoprus@mozilla.com|backout|2019-02-25 12:33:46|
 |[Link](https://hg.mozilla.org/integration/mozilla-inbound/pushloghtml?changeset=445315bbfbf9)|Backed out 10 changesets (bug 1521879) for causing bug 1530107. a=backout  Backed out changeset f597a73a6eac (bug 1521879) Backed out changeset 0bb76534f207 (bug 1521879) Backed out changeset abcb8be12adf (bug 1521879) Backed out changeset ed6c8d3bbfde (bug 1521879) Backed out changeset 1addf1e15b55 (bug 1521879) Backed out changeset 6b709cd9a479 (bug 1521879) Backed out changeset 07747027c59c (bug 1521879) Backed out changeset a6105ccc188c (bug 1521879) Backed out changeset 48c9c643e7bb (bug 1521879) Backed out changeset d4004105a04a (bug 1521879)|opoprus@mozilla.com|backout|2019-02-25 12:33:46|
-=======
-|[Link](https://hg.mozilla.org/integration/mozilla-inbound/pushloghtml?changeset=872914c3d0b9)|Bug 1527066: Add new ConsoleLogger type, and make it the default r=aki  Differential Revision: https://phabricator.services.mozilla.com/D19408|csabou@mozilla.com|aki|2019-02-21 05:45:15|
-|[Link](https://hg.mozilla.org/integration/mozilla-inbound/pushloghtml?changeset=fe259096e7ed)|Bug 1529033 - Update gn build to pick up MSVC /WX fix r=glandium  Differential Revision: https://phabricator.services.mozilla.com/D20375|csabou@mozilla.com|glandium|2019-02-21 05:45:15|
-|[Link](https://hg.mozilla.org/integration/mozilla-inbound/pushloghtml?changeset=5f8330e12825)|Backed out changeset fe259096e7ed (bug 1529033) for failing toolchains on a CLOSED TREE|csabou@mozilla.com||2019-02-21 05:45:15|
-|[Link](https://hg.mozilla.org/integration/mozilla-inbound/pushloghtml?changeset=eca15205ecb1)|Bug 1528427: Optimize tasks scheduled with try syntax r=tomprince  Differential Revision: https://phabricator.services.mozilla.com/D20403|csabou@mozilla.com|tomprince|2019-02-21 05:45:15|
-|[Link](https://hg.mozilla.org/integration/mozilla-inbound/pushloghtml?changeset=f4bd1f216081)|Bug 1522111 - Followup, improve SETA algorithm a bit more by treating opt low value as low value for pgo as well. Unless there is a high value task to override. r=jmaher  Differential Revision: https://phabricator.services.mozilla.com/D20390|csabou@mozilla.com|jmaher|2019-02-21 05:45:15|
-|[Link](https://hg.mozilla.org/integration/mozilla-inbound/pushloghtml?changeset=6939a3b5e2e4)|Bug 1529339 - replace test-provisioner with permanent bitbar provisioner id r=jmaher  Changes:  - replaced existing references to `test-provisioner/bitbar` with `bitbar/gecko-t-win10-aarch64` (proposed permanent provisioner-id)  Differential Revision: https://phabricator.services.mozilla.com/D20536|opoprus@mozilla.com|jmaher|2019-02-21 11:45:58|
-|[Link](https://hg.mozilla.org/integration/mozilla-inbound/pushloghtml?changeset=ddb817eed3bc)|Bug 1513000 - Updates to mozharness openh264 scripts and configs; r=callek  Differential Revision: https://phabricator.services.mozilla.com/D19817|dminor@mozilla.com|callek|2019-02-21 14:12:10|
-|[Link](https://hg.mozilla.org/integration/mozilla-inbound/pushloghtml?changeset=471db22054e7)|Bug 1513000 - Add taskcluster configuration for building openh264 plugin; r=callek  Differential Revision: https://phabricator.services.mozilla.com/D19818|dminor@mozilla.com|callek|2019-02-21 14:12:10|
-|[Link](https://hg.mozilla.org/integration/mozilla-inbound/pushloghtml?changeset=897cb0bac95e)|Bug 1528362: [taskgraph] Change scheduler-id to include the trust-domain; r=dustin  Differential Revision: https://phabricator.services.mozilla.com/D20048|nbeleuzu@mozilla.com|dustin|2019-02-21 18:13:01|
-|[Link](https://hg.mozilla.org/integration/mozilla-inbound/pushloghtml?changeset=424f97dc01db)|Bug 1528362: [taskgraph] Use trust-domain prefixed caches; r=dustin  Differential Revision: https://phabricator.services.mozilla.com/D20049|nbeleuzu@mozilla.com|dustin|2019-02-21 18:13:01|
->>>>>>> master
 
 |	mozilla-release	|	[MarkDown](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/hg_files/mozilla-release.md)	|	[Json](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/hg_files/mozilla-release.json)	| 
 |:----------:|:-----------------------:|:--------:| 
@@ -164,12 +110,7 @@
  
 | Link | Last commit | Author | Reviewer | Deploy time | 
 |:----------:|:-----------:|:------:|:--------:|:-----------:| 
-<<<<<<< HEAD
 | |No push in the last day.. [see the history of MD commits](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/git_files/build-puppet.md)|FIC - BOT|Self Generated| - |
-=======
-|[Link](https://github.com/mozilla-releng/build-puppet/commit/4e838bf6382357c6cd4e5ab3ec0d2280885e9f7b)|scriptworker 20.0.1 (#403)|escapewindow|N/A|2019-02-21 18:32:51|
-|[Link](https://github.com/mozilla-releng/build-puppet/commit/52dc060760c81bd7bd19b5c63cbeeb321670c300)|Bump scriptworker to 20.0.0 (#391)  Provide Github token to request API more than 60 times an hour|JohanLorenzo|N/A|2019-02-21 14:25:23|
->>>>>>> master
 
 |	mozapkpublisher	|	[MarkDown](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/git_files/mozapkpublisher.md)	|	[Json](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/git_files/mozapkpublisher.json)	| 
 |:----------:|:-----------------------:|:--------:| 
@@ -239,29 +180,12 @@
  
 | Link | Last commit | Author | Reviewer | Deploy time | 
 |:----------:|:-----------:|:------:|:--------:|:-----------:| 
-<<<<<<< HEAD
+|[Link](https://github.com/taskcluster/taskcluster/commit/d9b9d3f9856c4d3034039ba946e189483a20848e)|Merge pull request #308 from taskcluster/monoimage-fixes  Change terraform to deploy ui from the monoimage|owlishDeveloper|N/A|2019-02-26 00:56:57|
+|[Link](https://github.com/taskcluster/taskcluster/commit/2070e32d194e749442cffc8b079ee4a2f5a449da)|Merge pull request #293 from taskcluster/renovate/eslint-5.x  Update dependency eslint to v5.14.1|djmitche|N/A|2019-02-25 23:15:28|
+|[Link](https://github.com/taskcluster/taskcluster/commit/643ee0399129516b37111b4e007a81c96ca1ef8d)|Update dependency eslint to v5.14.1|renovate-bot|N/A|2019-02-25 22:52:18|
 |[Link](https://github.com/taskcluster/taskcluster/commit/19479633df854a343f4f9b74cec13d0b2e035dc7)|Bug 1520579: Increase allowed length of worker-types in aws-provisoner UI (#303)|helfi92|N/A|2019-02-25 20:16:53|
 |[Link](https://github.com/taskcluster/taskcluster/commit/7b058a76c4a92305c85083cfbcf19effcb53603a)|[UI] Add ability to prefetch components (hover/keyboard focus) (#278)    Add ability to prefetch components      Convert Link to a React Hook      Convert Links to use the new Link component|helfi92|N/A|2019-02-25 19:37:06|
 |[Link](https://github.com/taskcluster/taskcluster/commit/fe161aea55d70d1ca7b76713507058db24de7485)|Merge pull request #292 from taskcluster/renovate/ajv-6.x  Update dependency ajv to v6.9.2|djmitche|N/A|2019-02-25 17:30:54|
-|[Link](https://github.com/taskcluster/taskcluster/commit/2cb04cb5843f2bcbd79c1e7d251f85c01857e498)|Update dependency ajv to v6.9.2|renovate-bot|N/A|2019-02-25 00:54:11|
-=======
-|[Link](https://github.com/taskcluster/taskcluster/commit/c7670d403092259fe67ac1010e95275a09088e92)|Merge pull request #152 from taskcluster/bug-1307271  [Bug 1307271] Move to structured logging|imbstack|N/A|2019-02-21 21:59:00|
-|[Link](https://github.com/taskcluster/taskcluster/commit/7787589899ee23fdd955e3a389510af1bab96365)|Turn down default process reporting freq|imbstack|N/A|2019-02-21 17:27:08|
-|[Link](https://github.com/taskcluster/taskcluster/commit/5b6a39db2786c90f3da50dc688939cedbe0cf359)|Update logging format to work with more gke tooling|imbstack|N/A|2019-02-21 05:48:03|
-|[Link](https://github.com/taskcluster/taskcluster/commit/a63ba4023aac2fdc5ac4859ded30d2e72754ae26)|Update references|imbstack|N/A|2019-02-21 04:55:03|
-|[Link](https://github.com/taskcluster/taskcluster/commit/a9220b9daa023acb7acba1f100cd57ec9b2be223)|Add top-level Message field|imbstack|N/A|2019-02-21 04:54:28|
-|[Link](https://github.com/taskcluster/taskcluster/commit/12515e3826b1d903865eff0a8cc93b2b1273b91e)|Couple of followups from review|imbstack|N/A|2019-02-21 04:46:49|
-|[Link](https://github.com/taskcluster/taskcluster/commit/9297b41a27f0c785ef3b9338757dd65b6d61446d)|A couple quality-of-life fixes for monitor|imbstack|N/A|2019-02-21 04:43:28|
-|[Link](https://github.com/taskcluster/taskcluster/commit/2ddcdd5ef08c3b8a27856d7f7aa2245fabdacd72)|Add a bit more usage to README|imbstack|N/A|2019-02-21 04:33:44|
-|[Link](https://github.com/taskcluster/taskcluster/commit/777bc5fb8bd6503ad48e357a35ea70311a4a56dc)|Make monitor not patch things when disabled|imbstack|N/A|2019-02-21 04:29:17|
-|[Link](https://github.com/taskcluster/taskcluster/commit/ccee7eabe3e2e6246bdce3f3e3eddb3cd2ce0672)|Fix some issues with logging type names|imbstack|N/A|2019-02-21 04:25:23|
-|[Link](https://github.com/taskcluster/taskcluster/commit/c52f486559e7a2ddd7556cecbadd9bec828aea8a)|Fix old cases in README of monitor|imbstack|N/A|2019-02-21 03:39:00|
-|[Link](https://github.com/taskcluster/taskcluster/commit/d6ac06a5ee8f3f892a79fa0906edb19c185089be)|Pass through pretty logging via env var|imbstack|N/A|2019-02-21 03:37:13|
-|[Link](https://github.com/taskcluster/taskcluster/commit/ef48c20c2ae65cfe669bdbd3914fbf0be20d8410)|Make irc message work with verification|imbstack|N/A|2019-02-21 03:20:37|
-|[Link](https://github.com/taskcluster/taskcluster/commit/e1c98fede093acd473365472cf483768aaf3a906)|[Bug 1520918] Add denylist queries to web-server (#270)|OjaswinM|N/A|2019-02-21 20:07:21|
-|[Link](https://github.com/taskcluster/taskcluster/commit/8984c751f92b7e0a0d2c3a257ce48864fe266bd1)|Add 'follow log' to TaskLog (#276)|Aditya-Kolla|N/A|2019-02-21 18:09:22|
-|[Link](https://github.com/taskcluster/taskcluster/commit/f58547365656bbae578f8d554bc98e41703fee5f)|Add Search feature to Secrets (#273)|Aditya-Kolla|N/A|2019-02-21 18:06:05|
->>>>>>> master
 
 |	treescript	|	[MarkDown](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/git_files/treescript.md)	|	[Json](https://github.com/mozilla-releng/firefox-infra-changelog/blob/master/git_files/treescript.json)	| 
 |:----------:|:-----------------------:|:--------:| 

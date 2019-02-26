@@ -1,5 +1,5 @@
 ## REPOSITORY NAME: AUTOLAND
- CURRENT PUSH ID: 78958
+ CURRENT PUSH ID: 78974
 
 | Changeset | Date | Commiter | Commit Message | Commit URL | 
 |:---:|:---:|:----:|:----------------------------------:|:-----:| 
@@ -1117,6 +1117,7 @@
 |78873|2019-02-25 12:31:07|Ciure Andrei <aciure@mozilla.com>|Backed out changeset 588497dfa9c0 (bug 1530115) as a dependency for Bug 1520163 a=backout|https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=a5673a480930
 |78873|2019-02-25 12:31:07|Gurzau Raul <rgurzau@mozilla.com>|Backed out 10 changesets (bug 1521879) for causing bug 1530107. a=backoutBacked out changeset f597a73a6eac (bug 1521879)Backed out changeset 0bb76534f207 (bug 1521879)Backed out changeset abcb8be12adf (bug 1521879)Backed out changeset ed6c8d3bbfde (bug 1521879)Backed out changeset 1addf1e15b55 (bug 1521879)Backed out changeset 6b709cd9a479 (bug 1521879)Backed out changeset 07747027c59c (bug 1521879)Backed out changeset a6105ccc188c (bug 1521879)Backed out changeset 48c9c643e7bb (bug 1521879)Backed out changeset d4004105a04a (bug 1521879)|https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=445315bbfbf9
 |78945|2019-02-25 22:08:25|Steve Fink <sfink@mozilla.com>|Bug 1527777 - Move spidermonkey jobs from win32 to win64 r=jmaherDifferential Revision: https://phabricator.services.mozilla.com/D20619|https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=293617cdb29d
-|78950|2019-02-25 23:11:28|Thomas Daede <tdaede@mozilla.com>|Bug 1520163 - Add linux64-nasm toolchain. r=glandiumDifferential Revision: https://phabricator.services.mozilla.com/D20037|https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=fae88bb4c6da
+|78964|2019-02-26 00:55:42|Byron Campen [:bwc] <docfaraday@gmail.com>|Bug 1521879 - Part 7: Create new CI jobs for media mochitests with socket process enabled. r=ahalDifferential Revision: https://phabricator.services.mozilla.com/D17942|https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=634949dfc792
+|78968|2019-02-26 01:16:16|Thomas Daede <tdaede@mozilla.com>|Bug 1520163 - Add linux64-nasm to android-armv7-searchfox. r=katsDifferential Revision: https://phabricator.services.mozilla.com/D21098|https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=575da58a58c7
 
 
