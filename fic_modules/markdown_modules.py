@@ -13,7 +13,7 @@ from fic_modules.helper_functions import (
 from fic_modules.configuration import (
     LAST_WEEK,
     REPOSITORIES,
-    LOGGER,
+    logger,
     WORKING_DIR
 )
 from fic_modules.hg import extract_json_from_hg
@@ -105,7 +105,7 @@ def create_git_md_table(repository_name, path_to_files):
 
         md_file.close()
     except FileNotFoundError:
-        if LOGGER:
+        if logger:
             print("Json for {} is empty! Skipping!".format(repository_name))
 
 
@@ -146,15 +146,15 @@ def generate_main_md_table(path_to_files, days_to_generate=1):
     # Extract data from json_files and writes to main markdown table.
     if path_to_files == "git_files":
         extract_json_from_git(json_files, path_to_files, days_to_generate)
-        if LOGGER:
+        if logger:
             print("GIT" + successfully_generated)
     elif path_to_files == "hg_files":
         extract_json_from_hg(json_files, path_to_files, days_to_generate)
-        if LOGGER:
+        if logger:
             print("HG" + successfully_generated)
 
     else:
-        if LOGGER:
+        if logger:
             print("No table was generated!")
 
 
@@ -177,7 +177,7 @@ def write_date_header(file_name, datetime_object):
                   " |"
     file.write("\n" + base_table + date_header + "\n")
     file.close()
-    if LOGGER:
+    if logger:
         print("Generated date header for file:", file_name, " with datestamp",
               str(datetime.utcnow()))
 
@@ -268,7 +268,7 @@ def create_hg_md_table(repository_name):
 
         md_file.close()
     except FileNotFoundError:
-        if LOGGER:
+        if logger:
             print("Json for {} is empty! Skipping!".format(repository_name))
 
 

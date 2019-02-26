@@ -378,14 +378,14 @@ def last_check(repository_name):
                                                  .get("0")
                                                  .get("lastChecked"),
                                                  "%Y-%m-%d %H:%M:%S")
-                if LOGGER:
+                if logger:
                     print("Repo last updated on:", last_checked)
             except ValueError:
                 last_checked = datetime.strptime(json_content
                                                  .get("0")
                                                  .get("lastChecked"),
                                                  "%Y-%m-%d %H:%M:%S.%f")
-                if LOGGER:
+                if logger:
                     print("Repo last updated on:", last_checked)
     except IOError:
         last_checked = LAST_MONTH
@@ -494,7 +494,7 @@ def filter_git_commit_keyword(repository_name, repository_path):
         files_changed_by_commit = [x.filename for x in commit.files]
         if files_changed_by_commit:
             each_commit = {}
-            if LOGGER:
+            if logger:
                 print(commit.commit.message)
             if "deploy" in commit.commit.message:
                 number += 1
@@ -611,7 +611,7 @@ def extract_json_from_git(json_files, path_to_files, days_to_generate):
                                         review,
                                         commit_date)
             except KeyError:
-                if LOGGER:
+                if logger:
                     print("File ", file, " is empty. \n",
                           "Please check:",
                           repository_url,
