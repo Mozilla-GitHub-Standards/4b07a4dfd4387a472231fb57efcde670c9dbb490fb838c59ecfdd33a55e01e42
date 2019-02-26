@@ -4,7 +4,6 @@ from github import GithubException
 from fic_modules.configuration import (
     REPOSITORIES,
     REPO_LIST,
-    TOKEN,
     GIT
 )
 from datetime import datetime
